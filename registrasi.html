@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry - Registrasi</title>
+    <style>
+        .container {
+            border: 1px solid black;
+            width: 50%;
+            height:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Registrasi</h1>
+        
+        <form method="post">
+            <label for="tipe-text"><br>Input Tipe Text</label>
+            <input type="text" id="tipe-text" name="tipe-text">
+            <br>
+
+            <label for="tipe-pw"><br>Input Tipe Password</label>
+            <input type="text" id="tipe-pw" name="tipe-pw">
+            <br><br>
+
+            <input type="radio" id="tipe-radio" name="tipe-radio" value="input">
+            <label for="radio">Input</label>
+            <br>
+            <input type="radio" id="tipe-radio" name="tipe-radio" value="tipe">
+            <label for="radio">Tipe</label>
+            <br>
+            <input type="radio" id="tipe-radio" name="tipe-radio" value="radio">
+            <label for="radio">Radio</label>
+            <br><br>
+
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="satu">
+            <label for="checkbox1">Tipe Checkbox Satu</label>
+            <br>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="dua">
+            <label for="checkbox2">Tipe Checkbox Satu</label>
+            <br>
+            <input type="checkbox" id="checkbox3" name="checkbox3" value="tiga">
+            <label for="checkbox3">Tipe Checkbox Satu</label>
+            <br><br>
+
+            <label for="tipe-color"><br>Input Tipe Color</label><br>
+            <input type="color" id="tipe-color" name="tipe-color">
+            <br>
+
+            <label for="tipe-date"><br>Input Tipe Date</label><br>
+            <input type="date" id="tipe-date" name="tipe-date">
+            <br>
+
+            <label for="tipe-datetime"><br>Input Tipe Datetime</label><br>
+            <input type="datetime-local" id="tipe-datetime" name="tipe-datetime">
+            <br>
+
+            <label for="tipe-email"><br>Input Tipe Email</label><br>
+            <input type="email" id="tipe-email" name="tipe-email">
+            <br>
+
+            <label for="tipe-img"><br>Input Tipe Image</label><br>
+            <input type="image" src="https://i.pinimg.com/736x/11/be/2e/11be2e88f99055f0c7297a82d911a425.jpg" alt="submit" width="48" height="48">
+            <br>
+
+            <label for="tipe-file"><br>Input Tipe File</label><br>
+            <input type="file" id="tipe-file" name="tipe-file">
+            <br>
+
+            <label for="pw"><br>Input Tipe Hidden</label><br>
+            <input type="text" id="pw" name="pw">
+            <input type="hidden" id="hide" name="custom" value="1234">
+            <br>
+            
+            <label for="tipe-bulan"><br>Input Tipe Month</label><br>
+            <input type="month" id="tipe-bulan" name="tipe-bulan">
+            <br>
+
+            <label for="tipe-angka"><br>Input Tipe Number</label><br>
+            <input type="number" id="tipe-angka" name="tipe-angka" min="1" max="5">
+            <br>
+
+            <label for="tipe-range"><br>Input Tipe Range</label><br>
+            <input type="range" id="tipe-range" name="tipe-range" min="0" max="100">
+            <br>
+
+            <label for="tipe-search"><br>Input Tipe Search</label><br>
+            <input type="search" id="tipe-search" name="tipe-search">
+            <br>
+
+            <label for="tipe-tel"><br>Input Tipe Tel</label><br>
+            <input type="tel" id="tipe-tel" name="tipe-tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <br>
+
+            <label for="tipe-time"><br>Input Tipe Time</label><br>
+            <input type="time" id="tipe-time" name="tipe-time">
+            <br>
+
+            <label for="tipe-url"><br>Input Tipe URL</label><br>
+            <input type="url" id="tipe-url" name="tipe-url">
+            <br>
+
+            <label for="tipe-week"><br>Input Tipe Week</label><br>
+            <input type="week" id="tipe-week" name="tipe-week">
+            <br><br>
+
+            <input type="button" onclick="alert('Ini input tipe tombol')" value="Klik!">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+            <br><br>
+        </form>
+        <button onclick="document.location='beranda.html'">Kembali</button>
+    </div>
+</body>
+</html>
